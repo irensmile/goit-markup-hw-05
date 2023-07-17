@@ -433,38 +433,59 @@
         </p>
         <form name="order_form" autocomplete="on">
           <div class="modal-form">
-            <label class="modal-label">
+            <label class="modal-label" for="user-name">
               <span class="modal-header-name">Name</span>
-              <input class="modal-input" type="text" name="order_form_name" />
-              <svg class="modal-icon" width="" height="">
+            </label>
+            <div class="modal-input-container">
+              <input
+                class="modal-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+              <svg class="modal-icon" width="8" height="8">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
-            </label>
-            <label class="modal-label">
+            </div>
+            <label class="modal-label" for="order-phone">
               <span class="modal-header-name">Phone</span>
-              <input class="modal-input" type="tel" name="order_form_tel" />
-              <svg class="modal-icon" width="" height="">
+            </label>
+            <div class="modal-input-container">
+              <input
+                class="modal-input"
+                type="tel"
+                name="order-phone"
+                id="order-phone"
+              />
+              <svg class="modal-icon" width="8" height="8">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-            </label>
+            </div>
             <label class="modal-label">
-              <span class="modal-header-name">Email</span>
-              <input class="modal-input" type="email" name="order_form_email" />
+              <span class="modal-header-name" for="order-email">Email</span>
+            </label>
+            <div class="modal-input-container">
+              <input
+                class="modal-input"
+                type="email"
+                name="order-email"
+                id="order-email"
+              />
               <svg class="modal-icon" width="" height="">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
-            </label>
-            <label class="modal-label">
+            </div>
+            <label class="modal-label" for="user-comment">
               <span class="modal-header-name">Comment</span>
-              <textarea
-                name="order-comment"
-                class="modal-textarea"
-                placeholder="Text Input"
-                rows="4"
-              >
-              </textarea>
             </label>
-
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-textarea"
+              placeholder="Text Input"
+              rows="4"
+            >
+            </textarea>
             <div>
               <label class="modal-accept">
                 <input class="checkbox visually-hidden" type="checkbox" />

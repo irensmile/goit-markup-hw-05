@@ -629,12 +629,22 @@ body{
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
-.modal-form {}
-
+.modal-form {
+    margin-bottom: 8px;
+}
+.modal-input-container{
+    position: relative;
+    margin-bottom: 8px;
+}
 .modal-label {
     display: block;
     margin-bottom: 8px;
     position: relative;
+    font-size: 12px;
+    line-height: 1.17;
+    margin-bottom: 4px;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
 }
 .modal-input{
     color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
