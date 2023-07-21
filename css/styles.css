@@ -536,6 +536,7 @@ body{
 
 .footer-subscribe-icon {
     fill: var(--white, #FFF);
+    margin-left: 16px;
 }
 .footer-subscribe-form{
     display: flex;
