@@ -230,7 +230,7 @@ body{
 }
 .logo-footer{
     margin-bottom: 16px;
-    margin-right: 0;
+    margin-right: 40px;
 }
 .customers-link {
     width: 168px;
@@ -439,12 +439,14 @@ body{
 }
 .footer-container {
     display: flex;
+    gap: 80px;
     align-items: baseline;
+    justify-content: space-between;
     flex-shrink: 0;
 }
 
 .footer-info {
-    margin-right: 120px;
+     margin-right: 40px;
 }
 
 .footer-social{
@@ -533,7 +535,6 @@ body{
 
 
 .footer-subscribe-icon {
-    margin-left: 16px;
     fill: var(--white, #FFF);
 }
 .footer-subscribe-form{
